@@ -33,13 +33,10 @@ const quizScores = {
 // ===== Part 4: reduce =====
 
 
-// ===== Part 5: every and some =====
+
+// ===== Part 5: sort =====
 
 
-// ===== Part 6: sort =====
-
-
-// ===== Part 7: Object.keys and Object.values =====
 
 
 // ===== BONUS =====

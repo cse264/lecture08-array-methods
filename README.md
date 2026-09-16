@@ -22,43 +22,25 @@ Print each student's name on its own line.
 
 ## Part 2 — map
 
-- Make a new array of just the students' **grades**.
 - Make a new array where every grade is curved **up by 5 points**.
 
-> 🤔 **Check:** after the curve, print `students[0].grade`. Is it the original number or the curved one? What does that tell you about `map`?
+>  **Discuss:** after the curve, print `students[0].grade`. Is it the original number or the curved one? What does that tell you about `map`?
 
 ## Part 3 — filter and find
 
 - Get all students with a grade **above 80**.
 - Get the **first** student whose major is `'CSE'`.
 
-> 🤔 **Discuss:** you just used two methods that both search. What's different about what each one *returns*? (Try `find` with a major nobody has, like `'BIO'`, and see what comes back.)
+>  **Discuss:** you just used two methods that both search. What's different about what each one *returns*? (Try `find` with a major nobody has, like `'BIO'`, and see what comes back.)
 
 ## Part 4 — reduce
 
 Calculate the **total** of all student grades. Then use that to print the **class average**.
 
-## Part 5 — every and some
 
-- Did **every** student pass (grade of 60 or higher)?
-- Did **any** student score above 90?
-
-Each of these should print `true` or `false`.
-
-## Part 6 — sort
+## Part 5 — sort
 
 - Sort the `students` so the **highest grade comes first**, then print just their names in that order.
-- Now sort the `numbers` array using `.sort()` with **no callback**, and print it.
-
-> 🤔 **Look closely at that second one.** `[12, 5, 8, 130, 44]` does not come out in the order you'd expect. Figure out what rule JavaScript used instead — then fix it by giving `.sort()` a callback so the numbers come out smallest to largest.
-
-## Part 7 — Object.keys and Object.values
-
-Using the `quizScores` object:
-
-- Print an array of just the quiz names.
-- Print an array of just the scores.
-- **Then combine two methods:** calculate the total of all the quiz scores. (Hint: one method turns the object into an array, and you already used a method in Part 4 that adds up an array.)
 
 ---
 
